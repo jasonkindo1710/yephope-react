@@ -1,15 +1,17 @@
 import "./index.scss";
-import { Container } from "react-bootstrap";
+
 const Nav = () => {
   return (
-    <nav className="container" >
-      <div class="logo">Yephope</div>
-      <div class="menu">
+    <nav className="container">
+      <div class="logo">
+        <a href="#home">Yephope</a>
+      </div>
+
+
+      <div class="menu ">
         <ul>
           <li>
-            <a href="#sponsor" class="active">
-              Sponsors
-            </a>
+            <a href="#sponsor">Sponsors</a>
           </li>
           <li>
             <a href="#gallery">Gallery</a>

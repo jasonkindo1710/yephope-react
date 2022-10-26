@@ -12,12 +12,16 @@ nav {
 
 
     .logo {
-        font-size: 45px;
-        font-weight: 600;
-        text-transform: uppercase;
-        color: hsl(0, 0%, 95%);
-        letter-spacing: 1.5px;
+        a {
+            color: hsl(0, 0%, 95%);
+            font-size: 45px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+
+        }
     }
+  
 
     .menu {
         width: 45%;
@@ -42,6 +46,12 @@ nav {
                     letter-spacing: 1.5px;
                     color: hsl(0, 0%, 95%);
                     text-decoration: none;
+
+
+                    &:hover {
+                        color: hsl(47, 55%, 70%);
+                        transition: all 0.5s ease-in-out 0s;
+                    }
                 }
             }
         }

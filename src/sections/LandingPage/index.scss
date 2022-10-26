@@ -22,13 +22,21 @@
         width: 40%;
         position: absolute;
         top: 50%;
-        left: 52%;
+        left: 54%;
         text-transform: uppercase;
-        font-size: 40px;
-        font-weight: bold;
         color: hsl(0,0%,95%);
         transform: translateY(-50%);
         
+        h1 {
+            font-size: 80px;
+            line-height: 90px;
+            font-weight: bold;
+        }
+        p {
+            letter-spacing: 2px;
+            margin-left: 5px;
+        }
+
         button {
             width: 200px;
             height: 50px;
