@@ -28,9 +28,13 @@
         transform: translateY(-50%);
         
         h1 {
-            font-size: 60px;
-            line-height: 80px;
-            font-weight: bolder;
+            font-size: 80px;
+            line-height: 90px;
+            font-weight: bold;
+        }
+        p {
+            letter-spacing: 2px;
+            margin-left: 5px;
         }
 
         button {

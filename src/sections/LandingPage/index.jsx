@@ -12,7 +12,6 @@ const LandingPage = () => {
         </div>
         <div class="banner-txt">
           <h1>Thanks to all our sponsors!</h1>
-          
           <button>See sponsor list</button>
         </div>
         </div>
