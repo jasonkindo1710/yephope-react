@@ -5,7 +5,7 @@ import {
   Footer,
   Gallery,
   LandingPage,
-  Navbar,
+  Nav,
   Sponsor,
   Team,
 } from "./sections";
@@ -13,7 +13,7 @@ import {
 function App() {
   return (
     <div>
-      <Navbar />
+      <Nav />
       <LandingPage />
       <Sponsor />
       <Gallery />

@@ -1,0 +1,49 @@
+nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+
+    .logo {
+        font-size: 45px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: hsl(0, 0%, 95%);
+        letter-spacing: 1.5px;
+    }
+
+    .menu {
+        width: 45%;
+
+        .active {
+            color: hsl(47, 55%, 70%);
+            ;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            li {
+                list-style: none;
+
+                a {
+                    font-size: 20px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    letter-spacing: 1.5px;
+                    color: hsl(0, 0%, 95%);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
