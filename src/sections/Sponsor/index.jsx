@@ -1,7 +1,9 @@
 const Sponsor = () => {
-    return ( 
-        <div>Sponsor</div>
-     );
-}
- 
+  return (
+    <div>
+      
+    </div>
+  );
+};
+
 export default Sponsor;
