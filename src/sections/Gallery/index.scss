@@ -35,4 +35,11 @@
     .carousel-indicators {
         display: none;
     }
+    .gallery-slide {
+        position: relative;
+        .carousel-control-next {
+            position: absolute;
+            right: 0px;
+        }
+    }
 }

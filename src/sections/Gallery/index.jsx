@@ -9,7 +9,7 @@ const Gallery = () => {
         <section class="gallery container mt-5">
             <h1>Gallery</h1>
             <div class="row">
-                <Carousel fade>
+                <Carousel fade className="gallery-slide">
                     {galleryList.map((item) => (
                         <Carousel.Item>
                             <img
