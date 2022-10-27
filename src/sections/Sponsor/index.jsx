@@ -2,8 +2,26 @@ import { sponsorList } from "../../constant";
 import "./index.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useEffect, useState } from "react";
 
 const Sponsor = () => {
+//   const customClass = placeholderSrc && imgSrc === placeholderSrc ? "loading" : "loaded";
+//   const ProgressiveImg = ({ placeholderSrc, src, ...props }) => {
+//     const [imgSrc, setImgSrc] = useState(placeholderSrc || src);
+  
+//     useEffect(() => {
+//       // update the image
+//     }, []);
+  
+//     return (
+//       <img
+//         {...{ src: imgSrc, ...props }}
+//         alt={props.alt || ""}
+//         className={`image ${customClass}`}
+//         placeholder={placeholderSrc}
+//       />
+//     );
+//   };
   return (
     <section className="sponsor container mt-5" id="sponsorsection">
       <h1>Sponsor List</h1>
