@@ -49,17 +49,18 @@ import img21 from '../assets/images/Gallery/IMG_1028.JPG'
 import img22 from '../assets/images/Gallery/IMG_1094.JPG'
 import img23 from '../assets/images/Gallery/IMG_1119.JPG'
 import img24 from '../assets/images/Gallery/IMG_1122.JPG'
-import img25 from '../assets/images/Gallery/IMG_1135.JPG'
 import img26 from '../assets/images/Gallery/IMG_1136.JPG'
 import img27 from '../assets/images/Gallery/IMG_1141.JPG'
 import img28 from '../assets/images/Gallery/IMG_1144.JPG'
 import img29 from '../assets/images/Gallery/IMG_1145.JPG'
-import img30 from '../assets/images/Gallery/IMG_1165.JPG'
 import img31 from '../assets/images/Gallery/IMG_1183.JPG'
 import img32 from '../assets/images/Gallery/IMG_1192.JPG'
 import img33 from '../assets/images/Gallery/IMG_1196.JPG'
 import img34 from '../assets/images/Gallery/IMG_1200.JPG'
 import img35 from '../assets/images/Gallery/IMG_1207.JPG'
+import mem1 from "../assets/images/Team/mem1.jpg";
+import mem2 from "../assets/images/Team/mem2.jpg";
+import mem3 from "../assets/images/Team/mem3.jpg";
 
 export const sponsorList = [
     {
@@ -313,10 +314,6 @@ export const galleryList = [
         title: "",
     },
     {
-        img: img25,
-        title: "",
-    },
-    {
         img: img26,
         title: "",
     },
@@ -330,10 +327,6 @@ export const galleryList = [
     },
     {
         img: img29,
-        title: "",
-    },
-    {
-        img: img30,
         title: "",
     },
     {
@@ -361,3 +354,4 @@ export const galleryList = [
         title: "",
     },
 ]
+

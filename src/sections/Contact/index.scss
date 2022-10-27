@@ -1,0 +1,68 @@
+.section-contact {
+  background: url("http://images2.fanpop.com/images/photos/3800000/Football-not-Soccer-soccer-3870961-1200-563.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 50px;
+  position: relative;
+  background-position: left 140px bottom -150px;
+  width: 100%;
+  height: 100%;
+
+  .contact-title {
+    text-align: center;
+    position: relative;
+    margin: 50px 0;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 10%;
+      height: 1px;
+      background-color: #fff;
+      bottom: -30%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .sub-heading {
+    text-align: center;
+  }
+
+  .form-control {
+    background: inherit;
+    border: none;
+    box-shadow: none;
+    border-radius: 20px;
+    border: solid 2px #fff;
+    color: #fff;
+    padding: 6px 20px;
+
+    &::placeholder {
+      color: #fff;
+      opacity: 0.75;
+    }
+  }
+
+  .textarea {
+    font-size: 20px;
+  }
+
+  @media (max-width: 1200px) {
+    // background-position: bottom 180% right -160px;
+    background-position: left 130px bottom -100px;
+  }
+
+  @media (max-width: 1024px) {
+    background-position: left 100px bottom -60px;
+  }
+
+  @media (max-width: 768px) {
+    background-position: left 100px bottom -30px;
+  }
+
+  @media (max-width: 576px) {
+    background-position: left 0 bottom 50%;
+  }
+}
