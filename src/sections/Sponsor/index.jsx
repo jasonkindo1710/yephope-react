@@ -5,30 +5,14 @@ import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 
 const Sponsor = () => {
-//   const customClass = placeholderSrc && imgSrc === placeholderSrc ? "loading" : "loaded";
-//   const ProgressiveImg = ({ placeholderSrc, src, ...props }) => {
-//     const [imgSrc, setImgSrc] = useState(placeholderSrc || src);
-  
-//     useEffect(() => {
-//       // update the image
-//     }, []);
-  
-//     return (
-//       <img
-//         {...{ src: imgSrc, ...props }}
-//         alt={props.alt || ""}
-//         className={`image ${customClass}`}
-//         placeholder={placeholderSrc}
-//       />
-//     );
-//   };
   return (
     <section className="sponsor container mt-5" id="sponsorsection">
       <h1>Sponsor List</h1>
-      <h2>
-        Thanks to all our sponsors this year. We have raised total amount of &nbsp;
-        <span className="total">15.500.000 dong</span>
+      <h2 className="mb-3">
+        Thanks to all our sponsors this year. 
       </h2>
+      <h2 className="mb-3">Your contributon is what motivates our team to get better next year !</h2>
+      <h2>We have raised total amount of &nbsp; <span className="total">15.500.000 dong</span></h2>
       <div className="container-fluid fancy-gallery mb-5">
         <div className="row mt-4 mb-5">
           {sponsorList.map((item, index) => (

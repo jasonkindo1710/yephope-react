@@ -16,16 +16,6 @@ const Gallery = () => {
             </Carousel.Item>
           ))}
         </Carousel>
-        {/* <Masonry className="gallery" elementType={"ul"}>
-                    {galleryList.map((item, i) => {
-                        const randomHeight = random(100, 700);
-                        return (
-                            <li key={i} className="imgContainer" style={{ height: randomHeight }}>
-                                <img src={item.img} alt="laaa" />
-                            </li>
-                        );
-                    })}
-                </Masonry> */}
       </div>
     </section>
   );

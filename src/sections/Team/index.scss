@@ -20,6 +20,7 @@
     }
   }
 
+
   .team-content {
     .carousel {
       .carousel-control-prev {
@@ -34,6 +35,9 @@
 
   .react-multiple-carousel__arrow--left {
     left: 0;
+  }
+  .react-multiple-carousel__arrow--right {
+    right: 0;
   }
 
   .img-box {
@@ -53,53 +57,70 @@
       transition: all 0.5s ease-in-out 0s;
     }
 
-    ul {
-      margin: 0;
-      padding: 20px 0;
+    .player_info_wrapper {
+      display: block;
+      width: 90%;
+      overflow: hidden;
+      height: 70px;
+      background: #fff;
       position: absolute;
-      z-index: 1;
-      bottom: 50%;
-      display: flex;
-      justify-content: center;
-      left: 50%;
-      transform: translateX(-50%);
-      opacity: 0;
-      transition: all 0.5s ease-in-out 0s;
+      bottom: 0;
 
-      li {
-        width: 30px;
-        height: 30px;
-        border: 1px solid #fff;
-        border-radius: 50%;
-        margin: 3px;
-        padding: 7px;
-        display: flex;
-
-        transition: all 0.5s ease-in-out 0s;
+      .player_clippath {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(0 0, 30% 0, 45% 100%, 0% 100%);
+        background-color: #6aaea8;
+        z-index: 0;
       }
-    }
 
-    a {
-      color: hsl(0, 0%, 95%);
+      .player_info {
+        border: none;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
 
-      &:hover {
-        li {
-          color: hsl(47, 55%, 70%);
-          border: 1px solid hsl(47, 55%, 70%);
+        strong {
+          margin-top: 0;
 
+        }
+
+        .player_info_number {
+          display: block;
+          color: #fff;
+          width: 44px;
+
+          font-size: 45px;
+          line-height: 1.2;
+          text-align: center;
+          padding: 10px 0 0 20px;
+          z-index: 1;
+        }
+
+        .player_info_content {
+          display: flex;
+          flex-direction: column;
+          padding: 14px 13px 0 0;
+          line-height: 1.1;
+          text-transform: uppercase;
+          font-size: 20px;
+          z-index: 1;
+          color: #333333;
+
+          a {
+            text-decoration: none;
+            color: #333333;
+          }
+
+          &:nth-child(2) {
+            padding-left: 40px;
+          }
         }
       }
     }
 
-    &:hover::after {
-      opacity: 1;
-    }
 
-    &:hover {
-      ul {
-        opacity: 1;
-      }
-    }
 
     .crs-img {
       width: 90%;
