@@ -1,18 +1,31 @@
-import { Carousel, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import mem1 from "../../assets/images/Team/mem1.jpg";
 import mem2 from "../../assets/images/Team/mem2.jpg";
 import mem3 from "../../assets/images/Team/mem3.jpg";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
-import Slider from "react-slick";
 import "./index.scss";
 
 const Team = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 768 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 768, min: 0 },
+      items: 1,
+    },
   };
 
   return (
@@ -21,7 +34,27 @@ const Team = () => {
         <h1 className="fw-bold fs-1">Our Team</h1>
       </div>
 
-      <div className="team-content mt-4 your-class">
+      <Carousel responsive={responsive}>
+        <div>
+          <img className="d-block crs-img" src={mem1} alt="First slide" />
+        </div>
+        <div>
+          <img className="d-block crs-img" src={mem2} alt="Second slide" />
+        </div>
+        <div>
+          <img className="d-block crs-img" src={mem3} alt="Second slide" />
+        </div>
+        <div>
+          <img className="d-block crs-img" src={mem1} alt="Second slide" />
+        </div>
+        <div>
+          <img className="d-block crs-img" src={mem2} alt="Second slide" />
+        </div>
+        <div>
+          <img className="d-block crs-img" src={mem3} alt="Second slide" />
+        </div>
+      </Carousel>
+      {/* <div className="team-content mt-4 your-class">
         <Carousel fade>
           <Carousel.Item>
             <div className="d-flex flex gap-2">
@@ -41,7 +74,7 @@ const Team = () => {
             </div>
           </Carousel.Item>
         </Carousel>
-      </div>
+      </div> */}
     </Container>
   );
 };
