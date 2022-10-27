@@ -8,7 +8,7 @@ const Sponsor = () => {
     <section className="sponsor container mt-5" id="sponsorsection">
       <h1>Sponsor List</h1>
       <h2>
-        Thanks to all our sponsors this year. We have raised total of &nbsp;
+        Thanks to all our sponsors this year. We have raised total amount of &nbsp;
         <span className="total">15.500.000 dong</span>
       </h2>
       <div className="container-fluid fancy-gallery mb-5">

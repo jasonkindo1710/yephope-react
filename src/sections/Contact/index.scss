@@ -1,10 +1,10 @@
 .section-contact {
   background: url("http://images2.fanpop.com/images/photos/3800000/Football-not-Soccer-soccer-3870961-1200-563.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin-top: 50px;
   position: relative;
-  background-position: left 140px bottom -150px;
+  background-position: left 0px bottom -150px;
   width: 100%;
   height: 100%;
 
@@ -12,6 +12,7 @@
     text-align: center;
     position: relative;
     margin: 50px 0;
+    color: hsl(47,55%,70%);
 
     &::after {
       content: "";
@@ -19,7 +20,7 @@
       position: absolute;
       width: 10%;
       height: 1px;
-      background-color: #fff;
+      background-color: hsl(47,55%,70%);
       bottom: -30%;
       left: 50%;
       transform: translateX(-50%);

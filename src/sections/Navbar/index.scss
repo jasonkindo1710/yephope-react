@@ -5,16 +5,22 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    top: 4%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
+
 
     .nav-info {
         padding-top: 10px;
         padding-bottom: 10px;
         display: flex;
         justify-content: space-between;
+        // Responsive
+        @media (max-width: 768px) {
+            display: flex;
+            padding-top: 0px;
+        padding-bottom: 0px;
+        }
     }
 
 
@@ -25,14 +31,32 @@ nav {
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 2.5px;
-
+            // Responsive
+            @media (max-width: 768px) {
+                font-size: 30px;
+                padding-left: 16px;
+            }
+        }
+        // Responsive
+        @media (max-width: 768px) {
+            padding-top: 3px;
         }
     }
-  
+    .blank {
+              // Responsive
+              @media (max-width: 768px) {
+               display: none;
+            }
+    }
 
     .menu {
         width: 45%;
         margin-top: auto;
+         // Responsive
+         @media (max-width: 768px) {
+            font-size: 30px;
+            margin-right: 62px;
+        }
         .active {
             color: hsl(47, 55%, 70%);
             ;
@@ -45,7 +69,10 @@ nav {
 
             li {
                 list-style: none;
-
+                 // Responsive
+         @media (max-width: 768px) {
+            margin-right: 20px;
+        }
                 a {
                     font-size: 20px;
                     font-weight: 600;
@@ -59,8 +86,17 @@ nav {
                         color: hsl(47, 55%, 70%);
                         transition: all 0.5s ease-in-out 0s;
                     }
+
+                    // Responsive
+                    @media (max-width: 768px) {
+                        font-size: 15px;
+                    }
                 }
             }
         }
     }
+
+
+
+
 }

@@ -19,18 +19,19 @@ const Nav = () => {
   
   return (
     <nav  id="navbar">
-    <div class="container nav-info">
+    <div class="container-lg nav-info">
 
       <div class="logo">
         <a href="#home">Yephope</a>
       </div>
+      <div className="blank"></div>
       <div class="menu ">
         <ul>
           <li>
-            <a href="#sponsor">Sponsors</a>
+            <a href="#sponsorsection">Sponsors</a>
           </li>
           <li>
-            <a href="#gallery">Gallery</a>
+            <a href="#gallerysection">Gallery</a>
           </li>
           <li>
             <a href="#team">Members</a>
@@ -41,6 +42,7 @@ const Nav = () => {
         </ul>
       </div>
     </div>
+  
     </nav>
   );
 };

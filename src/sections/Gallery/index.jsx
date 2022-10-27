@@ -6,7 +6,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 const Gallery = () => {
   return (
-    <section class="gallery container mt-5">
+    <section class="gallery container mt-5" id="gallerysection">
       <h1>Gallery</h1>
       <div class="row">
         <Carousel fade className="gallery-slide">
