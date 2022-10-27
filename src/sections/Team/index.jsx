@@ -2,19 +2,26 @@ import { Carousel, Container } from "react-bootstrap";
 import mem1 from "../../assets/images/Team/mem1.jpg";
 import mem2 from "../../assets/images/Team/mem2.jpg";
 import mem3 from "../../assets/images/Team/mem3.jpg";
-import anhBauDuc from "../../assets/images/Sponsor/anhBauDuc.JPG";
-import anhDang from "../../assets/images/Sponsor/anhDang.JPG";
-import anhDuong from "../../assets/images/Sponsor/anhDuong.JPG";
+
+import Slider from "react-slick";
 import "./index.scss";
 
 const Team = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
   return (
-    <Container>
+    <Container className="section-team">
       <div className="team-title text-center">
         <h1 className="fw-bold fs-1">Our Team</h1>
       </div>
 
-      <div className="team-content mt-4">
+      <div className="team-content mt-4 your-class">
         <Carousel fade>
           <Carousel.Item>
             <div className="d-flex flex gap-2">
