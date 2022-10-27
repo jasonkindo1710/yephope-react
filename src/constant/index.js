@@ -123,12 +123,12 @@ export const sponsorList = [
         value: "500.000"
     },
     {
-        title: "Antoni Trọng",
+        title: "Antoine Trọng",
         image: banTrong,
         value: "300.000"
     },
     {
-        title: "CoZy",
+        title: "Cozy",
         image: cozy,
         value: "500.000"
     },
@@ -153,12 +153,12 @@ export const sponsorList = [
         value: "500.000"
     },
     {
-        title: "Vinh khuất",
+        title: "Son Heung Vinh",
         image: emVinh,
         value: "200.000"
     },
     {
-        title: "GauTham",
+        title: "Gautham",
         image: Gautham,
         value: "500.000"
     },
@@ -168,12 +168,12 @@ export const sponsorList = [
         value: "300.000"
     },
     {
-        title: "Hoàng NX10",
+        title: "HoàngNX10",
         image: HoangNX10,
         value: "300.000"
     },
     {
-        title: "Lộc",
+        title: "Lộc Đỉnh Ký",
         image: Loc,
         value: "300.000"
     },

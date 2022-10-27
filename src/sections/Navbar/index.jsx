@@ -5,8 +5,8 @@ const Nav = () => {
   let prevScrollPos = window.pageYOffset;
     window.onscroll = function() {
       let currentScrollPos = window.pageYOffset;
-      
-      if (prevScrollPos > currentScrollPos) {
+
+      if (currentScrollPos === 0) {
         document.getElementById("navbar").style.top = "0";
         document.getElementById("navbar").style.backgroundColor = "transparent";
 
