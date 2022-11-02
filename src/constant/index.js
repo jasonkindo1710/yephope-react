@@ -23,6 +23,8 @@ import HoangNX10 from "../assets/images/Sponsor/HoangNX10.jpg";
 import Loc from "../assets/images/Sponsor/Loc.JPG";
 import Smiley from "../assets/images/Sponsor/Smiley.jpeg";
 import ThànhMẹt from "../assets/images/Sponsor/ThànhMẹt.jpg";
+import AnhToan from "../assets/images/Sponsor/anhToan.jpeg";
+import truong from "../assets/images/Sponsor/truong.jpeg";
 
 // Gallery
 import img1 from "../assets/images/Gallery/IMG_0965.JPG";
@@ -85,7 +87,7 @@ export const sponsorList = [
   },
   {
     title: "Anh Toàn",
-    image: Smiley,
+    image: AnhToan,
     value: "600.000",
   },
   {
@@ -140,13 +142,23 @@ export const sponsorList = [
     value: "500.000",
   },
   {
-    title: "ViệtĐĐ",
+    title: "Việt Dart",
     image: emViet,
+    value: "500.000",
+  },
+  {
+    title: "Đắc Vân Đình",
+    image: emDac,
     value: "500.000",
   },
   {
     title: "Gautham",
     image: Gautham,
+    value: "500.000",
+  },
+  {
+    title: "Trường Tàu",
+    image: truong,
     value: "500.000",
   },
   {
@@ -189,19 +201,13 @@ export const sponsorList = [
     value: "300.000",
   },
   {
-    title: "Thành Mẹt",
+    title: "Thành Lak",
     image: ThànhMẹt,
     value: "300.000",
   },
   {
     title: "Anh NgocPV4",
     image: Smiley,
-    value: "200.000",
-  },
-
-  {
-    title: "Đắc Vân Đình",
-    image: emDac,
     value: "200.000",
   },
   {

@@ -17,6 +17,7 @@
     }
   }
 
+
   h2 {
     text-align: center;
     @media (max-width: 1200px) {
@@ -89,6 +90,12 @@
         font-size: 15px;
         margin-top: 5px;
       }
+    }
+  }
+
+  .main-item {
+    img {
+      max-height: 500px;
     }
   }
 }

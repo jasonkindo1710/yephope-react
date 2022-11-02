@@ -1,16 +1,19 @@
 import { Container } from "react-bootstrap";
 import alaba from "../../assets/images/Team/ALABA.jpeg";
-import benzema from "../../assets/images/Team/BENZEMA.jpeg";
-import camavinga from "../../assets/images/Team/CAMAVINGA.jpeg";
-import courtois from "../../assets/images/Team/COURTOIS.jpeg";
-import hazard from "../../assets/images/Team/HAZARD.jpeg";
-import kroos from "../../assets/images/Team/KROOS.jpeg";
-import lucas from "../../assets/images/Team/LUCAS.jpeg";
-import modric from "../../assets/images/Team/MODRIC.jpeg";
-import rodrygo from "../../assets/images/Team/RODRYGO.jpeg";
-import rudiger from "../../assets/images/Team/RUDIGER.jpeg";
-import valverde from "../../assets/images/Team/VALVERDE.jpeg";
-import vinicius from "../../assets/images/Team/Vinicius.jpeg";
+import bauduc from "../../assets/images/Team/bauduc.jpeg";
+import cozy from "../../assets/images/Team/cozy.jpg";
+import dac from "../../assets/images/Team/dac.jpeg";
+import duong from "../../assets/images/Team/duong.jpeg";
+import khanh from "../../assets/images/Team/khanh.jpeg";
+import khoi from "../../assets/images/Team/khoi.jpeg";
+import ngoc from "../../assets/images/Team/ngoc.jpeg";
+import oai from "../../assets/images/Team/oai.jpeg";
+import truong from "../../assets/images/Team/truong.jpeg";
+import vinh from "../../assets/images/Team/vinh.jpeg";
+import Zook from "../../assets/images/Team/Zook.jpeg";
+
+
+
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -45,7 +48,7 @@ const Team = () => {
       <Carousel responsive={responsive} className="container">
         <div className="profile">
           <div className="img-box">
-            <img className="d-block crs-img" src={modric} alt="First slide" />
+            <img className="d-block crs-img" src={cozy} alt="First slide" />
             <div className="player_info_wrapper">
               <div className="player_clippath"></div>
               <div class="player_info">
@@ -65,7 +68,7 @@ const Team = () => {
         </div>
         <div className="profile">
           <div className="img-box">
-            <img className="d-block crs-img" src={benzema} alt="Second slide" />
+            <img className="d-block crs-img" src={oai} alt="Second slide" />
             <div className="player_info_wrapper">
               <div className="player_clippath"></div>
               <div class="player_info">
@@ -85,7 +88,7 @@ const Team = () => {
         </div>
         <div className="profile">
           <div className="img-box">
-            <img className="d-block crs-img" src={hazard} alt="Second slide" />
+            <img className="d-block crs-img" src={duong} alt="Second slide" />
             <div className="player_info_wrapper">
               <div className="player_clippath"></div>
               <div class="player_info">
@@ -105,7 +108,7 @@ const Team = () => {
         </div>
         <div className="profile">
           <div className="img-box">
-            <img className="d-block crs-img" src={rudiger} alt="Second slide" />
+            <img className="d-block crs-img" src={dac} alt="Second slide" />
             <div className="player_info_wrapper">
               <div className="player_clippath"></div>
               <div class="player_info">
@@ -125,7 +128,7 @@ const Team = () => {
         </div>
         <div className="profile">
           <div className="img-box">
-            <img className="d-block crs-img" src={kroos} alt="Second slide" />
+            <img className="d-block crs-img" src={khanh} alt="Second slide" />
             <div className="player_info_wrapper">
               <div className="player_clippath"></div>
               <div class="player_info">
@@ -147,7 +150,7 @@ const Team = () => {
           <div className="img-box">
             <img
               className="d-block crs-img"
-              src={vinicius}
+              src={vinh}
               alt="Second slide"
             />
             <div className="player_info_wrapper">
@@ -191,7 +194,7 @@ const Team = () => {
           <div className="img-box">
             <img
               className="d-block crs-img"
-              src={valverde}
+              src={bauduc}
               alt="Second slide"
             />
             <div className="player_info_wrapper">
@@ -215,7 +218,7 @@ const Team = () => {
           <div className="img-box">
             <img
               className="d-block crs-img"
-              src={courtois}
+              src={khoi}
               alt="Second slide"
             />
             <div className="player_info_wrapper">
@@ -237,7 +240,7 @@ const Team = () => {
         </div>
         <div className="profile">
           <div className="img-box">
-            <img className="d-block crs-img" src={lucas} alt="Second slide" />
+            <img className="d-block crs-img" src={ngoc} alt="Second slide" />
             <div className="player_info_wrapper">
               <div className="player_clippath"></div>
               <div class="player_info">
@@ -259,7 +262,7 @@ const Team = () => {
           <div className="img-box">
             <img
               className="d-block crs-img"
-              src={camavinga}
+              src={truong}
               alt="Second slide"
             />
             <div className="player_info_wrapper">
@@ -281,7 +284,7 @@ const Team = () => {
         </div>
         <div className="profile">
           <div className="img-box">
-            <img className="d-block crs-img" src={rodrygo} alt="Second slide" />
+            <img className="d-block crs-img" src={Zook} alt="Second slide" />
             <div className="player_info_wrapper">
               <div className="player_clippath"></div>
               <div class="player_info">
