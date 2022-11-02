@@ -11,6 +11,7 @@ import oai from "../../assets/images/Team/oai.jpeg";
 import truong from "../../assets/images/Team/truong.jpeg";
 import vinh from "../../assets/images/Team/vinh.jpeg";
 import Zook from "../../assets/images/Team/Zook.jpeg";
+import refresh from "../../assets/images/Team/refresh.png";
 
 
 
@@ -172,7 +173,7 @@ const Team = () => {
         </div>
         <div className="profile">
           <div className="img-box">
-            <img className="d-block crs-img" src={alaba} alt="Second slide" />
+            <img className="d-block crs-img" src={refresh} alt="Second slide" />
             <div className="player_info_wrapper">
               <div className="player_clippath"></div>
               <div class="player_info">
